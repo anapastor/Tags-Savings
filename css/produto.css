@@ -84,7 +84,7 @@ img{
     height: 80px;
     border-radius: 0px;
     border-top-right-radius: 20px;
-    border-top-left-radius: 5px;
+    border-top-left-radius: 20px;
     margin-top: 0;
     display: flex;
     align-items: center;
@@ -122,16 +122,4 @@ a{
     padding-top: 30px;
     font-size: 20px;
     color: #EEEEEE;
-}
-
-footer{
-    margin-top: 50px;
-    text-align: center;
-    color: rgb(74, 74, 74);
-}
-
-.rodape{
-    background-color: #cfcdcd;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
