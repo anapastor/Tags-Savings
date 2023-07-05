@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+
 
 * {
     margin: 0;
@@ -8,7 +12,7 @@
 }
 
 body{
-    background-color: #EEEEEE;
+    background-color: #c1e5dd;
     font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
@@ -31,7 +35,7 @@ header{
 }
 
 .header-title{
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Lilita One', cursive;
     font-size: 150%;
     color: #0b2727;
     display: flex;
@@ -117,10 +121,13 @@ a{
 }
 
 #content{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    font-size: 20px;
+    font-family: 'Mitr', sans-serif;
+    line-height: 50px;
+    word-spacing: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    font-size: 40px;
     color: #EEEEEE;
 }
 
@@ -131,7 +138,7 @@ footer{
 }
 
 .rodape{
-    background-color: #cfcdcd;
+    background-color: #9ac9bd;
     padding-top: 50px;
     padding-bottom: 50px;
 }
